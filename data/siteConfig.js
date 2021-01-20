@@ -1,30 +1,27 @@
 module.exports = {
-  siteTitle: 'gatsby-starter-morning-dew',
-  siteDescription: 'A Gatsby theme/starter to build lightning-fast websites',
-  authorName: 'Maxence Poutord',
-  twitterUsername: '_maxpou',
+  siteTitle: 'Joel Jacquez',
+  siteDescription: 'Software Engineer',
+  authorName: 'Joel Jacquez',
+  twitterUsername: 'cryptt3r',
   authorAvatar: 'avatar.jpeg', // file in content/images
   defaultLang: 'en', // show flag if lang is not default. Leave empty to enable flags in post lists
   authorDescription: `
-  For the last decade, Maxence Poutord has worked with a variety of web technologies. He is currently focused on front-end development.
-  On his day to day job, he is working as a senior front-end engineer at VSware. He is also an occasional tech speaker and a mentor.
-  As a digital nomad, he is living where the WiFi and sun are 😎 <br>
-  Do you want to know more? <a href="https://www.maxpou.fr/about" rel="noopener" target="_blank">Visit my website!</a>
+  Soy backend y frontend developer, me gusta probar nuevas tecnologías, soy apasionado de la tecnología, amo viajar y me gusta mucho leer, autodidacta y creo firmemente en que el aprendizaje debe ser constante, y la renovación una constante. <a href="https://jacquez.xyz//about" rel="noopener" target="_blank">Visit my website!</a>
   `,
-  siteUrl: 'https://maxpou.github.io/',
-  disqusSiteUrl: 'https://www.maxpou.fr/',
+  siteUrl: 'https://jacquez.xyz/',
+  disqusSiteUrl: 'https://jacquez.xyz/',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
   pathPrefix: '/gatsby-starter-morning-dew', // Note: it must *not* have a trailing slash.
-  siteCover: 'cover-baymax.jpeg', // file in content/images
-  googleAnalyticsId: 'UA-67868977-2',
+  siteCover: 'cover-primary.png', // file in content/images
+  googleAnalyticsId: 'UA-67868977-2', // TODO: change this
   background_color: '#ffffff',
   theme_color: '#222222',
   display: 'standalone',
-  icon: 'content/images/baymax.png',
+  icon: 'content/images/logo.png',
   postsPerPage: 6,
-  disqusShortname: 'maxpou',
-  headerTitle: 'gatsby-starter-morning-dew',
-  headerLinksIcon: 'baymax.png', //  (leave empty to disable: '')
+  disqusShortname: 'maxpou', // TODO: change this
+  headerTitle: 'Joel Jacquez',
+  headerLinksIcon: 'logo.png', //  (leave empty to disable: '')
   headerLinks: [
     {
       label: 'Blog',
@@ -67,15 +64,15 @@ module.exports = {
       links: [
         {
           label: 'GitHub',
-          url: 'https://github.com/maxpou/gatsby-starter-morning-dew',
+          url: 'https://github.com/JoelJacquez',
         },
         {
           label: 'Website',
-          url: 'https://www.maxpou.fr',
+          url: '/',
         },
         {
           label: 'Twitter',
-          url: 'https://twitter.com/_maxpou',
+          url: 'https://twitter.com/cryptt3r',
         },
       ],
     },
