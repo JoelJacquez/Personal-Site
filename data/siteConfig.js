@@ -3,10 +3,10 @@ module.exports = {
   siteDescription: 'Software Engineer',
   authorName: 'Joel Jacquez',
   twitterUsername: 'cryptt3r',
-  authorAvatar: 'avatar.jpeg', // file in content/images
+  authorAvatar: 'avatar.jpg', // file in content/images
   defaultLang: 'en', // show flag if lang is not default. Leave empty to enable flags in post lists
   authorDescription: `
-  Soy backend y frontend developer, me gusta probar nuevas tecnologías, soy apasionado de la tecnología, amo viajar y me gusta mucho leer, autodidacta y creo firmemente en que el aprendizaje debe ser constante, y la renovación una constante. <a href="https://jacquez.xyz//about" rel="noopener" target="_blank">Visit my website!</a>
+  Soy backend y frontend developer, me gusta probar nuevas tecnologías, soy apasionado de la tecnología, amo viajar y me gusta mucho leer, autodidacta y creo firmemente en que el aprendizaje debe ser constante, y la renovación una constante. <a href="https://jacquez.xyz/" rel="noopener" target="_blank">Visit my website!</a>
   `,
   siteUrl: 'https://jacquez.xyz/',
   disqusSiteUrl: 'https://jacquez.xyz/',
