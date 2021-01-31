@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-ab1ae1869a7f177d0666.js"
+    "url": "webpack-runtime-0b15d76eda4541618310.js"
   },
   {
     "url": "framework-1bcdbcdd30f43763a25c.js"
   },
   {
-    "url": "app-da6238d2d0c5fa4d50dc.js"
+    "url": "app-27fbde794cea2ae4c6c1.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "8ac4be4a1247a1187c6ea3ded012ec7a"
+    "revision": "8e6661c4f717b76a824bd29bc03f11f2"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-ad6431e4664bcf916d19.js"
@@ -48,14 +48,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "3d803b81531a39e5592af9389d81cd31"
+    "revision": "f46fb2b1ac0cb8a1c3f29d763b0a5d27"
   },
   {
-    "url": "polyfill-dfda8d059abd9d0298c4.js"
+    "url": "polyfill-d0a90a918e39f7bd0bdc.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "c1b1c38c39398c8a81217f9ca0df096b"
+    "revision": "a87b4e3a343ea3e2401ba45b5c0700a9"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -142,12 +142,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/gatsby-starter-morning-dew`), ``)
+  pathname = pathname.replace(new RegExp(`^/Personal-Site`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/gatsby-starter-morning-dew/app-da6238d2d0c5fa4d50dc.js`))) {
+  if (!resources || !(await caches.match(`/Personal-Site/app-27fbde794cea2ae4c6c1.js`))) {
     return await fetch(event.request)
   }
 
@@ -160,7 +160,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/gatsby-starter-morning-dew/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/Personal-Site/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
