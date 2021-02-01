@@ -11,9 +11,11 @@ module.exports = {
   siteUrl: 'https://jacquez.xyz/',
   disqusSiteUrl: 'https://jacquez.xyz/',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
-  pathPrefix: '/Personal-Site/', // Note: it must *not* have a trailing slash.
+  pathPrefix: '/', // Note: it must *not* have a trailing slash.
+  // pathPrefix: '/Personal-Site/', // Note: it must *not* have a trailing slash.
   siteCover: 'cover-primary.png', // file in content/images
   // googleAnalyticsId: 'UA-67868977-2', // TODO: change this
+  trackingId: 'G-5ZLPQWZ62P',
   background_color: '#ffffff',
   theme_color: '#222222',
   display: 'standalone',
@@ -27,14 +29,14 @@ module.exports = {
       label: 'Blog',
       url: '/',
     },
-    {
-      label: 'About',
-      url: '/about-gatsby-starter-morning-dew',
-    },
-    {
-      label: 'Installation',
-      url: '/how-to-install',
-    },
+    // {
+    //   label: 'About',
+    //   url: '/about-gatsby-starter-morning-dew',
+    // },
+    // {
+    //   label: 'Installation',
+    //   url: '/how-to-install',
+    // },
   ],
   // Footer information (ex: Github, Netlify...)
   websiteHost: {
@@ -49,14 +51,14 @@ module.exports = {
           label: 'Blog',
           url: '/',
         },
-        {
-          label: 'About',
-          url: '/about-gatsby-starter-morning-dew',
-        },
-        {
-          label: 'Installation',
-          url: '/how-to-install',
-        },
+        // {
+        //   label: 'About',
+        //   url: '/about-gatsby-starter-morning-dew',
+        // },
+        // {
+        //   label: 'Installation',
+        //   url: '/how-to-install',
+        // },
       ],
     },
     {
